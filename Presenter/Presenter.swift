@@ -15,7 +15,7 @@ class Presenter {
     
     // system version
     let version:NSString = UIDevice.currentDevice().systemVersion as NSString;
-    // device (nneded only for iOS7)
+    // device (needed only for iOS7)
     let idiom = UIDevice.currentDevice().userInterfaceIdiom
     
     class var sharedInstance: Presenter {
